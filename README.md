@@ -2,11 +2,13 @@
 
 RTIMULib is the simplest way to connect a 9-dof, 10-dof or 11-dof IMU to an embedded Linux system and obtain quaternion or Euler angle pose data. Basically, two simple function calls (IMUInit() and IMURead()) are pretty much all that's needed to integrate RTIMULib.
 
-## Please note that this library is no longer supported.
+## Please note that this library is no longer supported
+
+See https://github.com/richards-tech/RTIMULib2 for the development version.
 
 ## Features
 
-The Linux directory contains the main demo apps for embeeded Linux systems:
+The Linux directory contains the main demo apps for embedded Linux systems:
 
 * RTIMULibDrive is a simple app that shows to to use the RTIMULib library in a basic way.
 * RTIMULibDrive10 adds support for pressure/temperature sensors.
